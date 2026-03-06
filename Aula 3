@@ -1,0 +1,279 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMZzZRyRLBaNpHfwNVX/sQP",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Kevinduriguetto/Aula-de-PA/blob/main/Aula%203\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 47,
+      "metadata": {
+        "id": "bb8gaj_DqpmN"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Aula de programação e algoritímos\n",
+        "\n",
+        "*  Calcular uma área\n",
+        "\n",
+        "# Entrada\n",
+        "\n",
+        "Ler lado1\n",
+        "Ler lado2\n",
+        "\n",
+        "#Processamento\n",
+        "\n",
+        "area = lado1 * lado2\n",
+        "\n",
+        "# Saída\n",
+        "\n",
+        "Escrever o total da área\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "Fe15t7_ssLjk"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Variáveis que recebe o valor dos lados\n",
+        "\n",
+        "# Entrada\n",
+        "Lado1 = 1\n",
+        "Lado2 = 67"
+      ],
+      "metadata": {
+        "id": "xOhZ8bVIuR3z"
+      },
+      "execution_count": 48,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Processamento\n",
+        "Area = Lado1 * Lado2"
+      ],
+      "metadata": {
+        "id": "Ja7EtAXdvCrL"
+      },
+      "execution_count": 49,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Saída\n",
+        "print (f\"Total da área calculada: {Area} metros quadrados\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "E1U83qKcyw1H",
+        "outputId": "419b14cb-0648-486c-c82b-67d9683cd7d0"
+      },
+      "execution_count": 50,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total da área calculada: 67 metros quadrados\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Operadores aritiméticos\n",
+        "\n",
+        "1.   Soma= +\n",
+        "2.   Subtração= -\n",
+        "3. Multiplicação= *\n",
+        "4. divisão= /\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "HoWsIlZiz_PZ"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Atividade:\n",
+        "\n",
+        "Fazer um algoritímo e depois o programa que recebe 4 notas do aluno calcula a média aritimética e imprimi a média."
+      ],
+      "metadata": {
+        "id": "RvxzrGB80Yss"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Entrada\n",
+        "Ler nota1\n",
+        "Ler nota2\n",
+        "Ler nota3\n",
+        "Ler nota4\n",
+        "\n",
+        "#Processamento\n",
+        "\n",
+        "Calcular nota do aluno\n",
+        "\n",
+        "#Saída\n",
+        "Escrever a nota final do aluno"
+      ],
+      "metadata": {
+        "id": "gI1oF0bd6OXa"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Entrada\n",
+        "\n",
+        "Nota1 = 1\n",
+        "Nota2 = 9\n",
+        "Nota3 = 7\n",
+        "Nota4 = 10"
+      ],
+      "metadata": {
+        "id": "ifj6P0AP004b"
+      },
+      "execution_count": 51,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Processamento\n",
+        "\n",
+        "nota = Nota1 + Nota2 + Nota3 + Nota4"
+      ],
+      "metadata": {
+        "id": "gUneIrBL3Tqj"
+      },
+      "execution_count": 52,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Saída\n",
+        "\n",
+        "print (f\"Total da Média do aluno: {nota} Nota final\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "47B-o_9V5JLH",
+        "outputId": "f8442855-fdf5-413d-fde0-73dbfbf14a5a"
+      },
+      "execution_count": 53,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total da Média do aluno: 27 Nota final\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "faça um algoritimo que receba um numero e calcule o dobro desse numero"
+      ],
+      "metadata": {
+        "id": "Aqf0mJQa8rH8"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Entrada\n",
+        "\n",
+        "Numero1 = 67\n"
+      ],
+      "metadata": {
+        "id": "RLM68BH081m5"
+      },
+      "execution_count": 59,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Processamento\n",
+        "Dobro = Numero1*Numero1"
+      ],
+      "metadata": {
+        "id": "h917O-r09QS1"
+      },
+      "execution_count": 60,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Saída\n",
+        "\n",
+        "print (f\"Total do dobro do numero: {Dobro} resultado final\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ksc0AHr-9lUF",
+        "outputId": "739e2ac8-a2c2-4bda-a112-59f23a3c6a51"
+      },
+      "execution_count": 63,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total do dobro do numero: 4489 resultado final\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
